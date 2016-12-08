@@ -15,8 +15,8 @@
     "desk",
     "reject"
   ],
-  "bin":{
-    "desk-reject":"./lib/index.js"
+  "bin": {
+    "desk-reject": "./lib/index.js"
   },
   "author": "Olegzandr Denman",
   "license": "ISC",
@@ -27,5 +27,8 @@
   "dependencies": {
     "csvtojson": "^1.0.3",
     "dashdash": "^1.14.1"
+  },
+  "devDependencies": {
+    "suman": "^1.1.512207"
   }
 }
