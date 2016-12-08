@@ -1,0 +1,31 @@
+{
+  "name": "desk-reject",
+  "version": "0.0.1",
+  "description": "# desk-reject",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "suman"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/the1mills/desk-reject.git"
+  },
+  "keywords": [
+    "PLOS",
+    "desk",
+    "reject"
+  ],
+  "bin":{
+    "desk-reject":"./lib/index.js"
+  },
+  "author": "Olegzandr Denman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/the1mills/desk-reject/issues"
+  },
+  "homepage": "https://github.com/the1mills/desk-reject#readme",
+  "dependencies": {
+    "csvtojson": "^1.0.3",
+    "dashdash": "^1.14.1"
+  }
+}
